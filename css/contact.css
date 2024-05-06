@@ -1,0 +1,236 @@
+/*contact main part start */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.main-cont {
+  width: 100%;
+  height:auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top:0px;
+  margin-bottom:100px;
+ display: block;
+ font-family: "Roboto", 'Open-sans';
+
+  }
+  .img-div{
+    width:100%;
+    height:auto;
+    
+  }
+  
+.contact-info{
+ margin:40px auto;
+ text-align: center;
+ justify-content: center;
+ 
+
+}
+
+#location{
+  color:crimson;
+
+}
+#email{
+  color:blue;
+  
+}
+#call{
+  color:green;
+}
+.icon-style{
+  font-size: 30px;
+}
+#location:hover{
+  color:crimson;
+  
+  transform:translateY(2px);
+}
+
+
+#email:hover{
+  color:blue;
+
+  transform:translateY(2px);
+}
+
+#call:hover{
+  color:green;
+ 
+  transform:translateY(2px);
+}
+.icon-name{
+ color:black;
+ font-size: 20px;
+ font-family: 'Nunito Sans', sans-serif;
+ margin-top: 10px;
+}
+
+.p {
+  font-size: 14px;
+  margin-left: 35px;
+  margin-top: 10px;
+  color:#0000;
+}
+  .second-part{
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+  display:flex;
+  height: auto;
+  width:70%;
+  margin:10px auto;
+  padding: 30px 20px;
+  justify-content: center;
+  text-align: center;
+  margin-bottom:30px;
+
+  }
+  .location-part{
+    
+    padding:10px;
+    width:400px;
+    margin:20px;
+  }
+  .email-part{
+    padding:10px;
+    width:400px;
+    margin:20px;
+  }
+  .call-part{
+  
+    padding:10px;
+    width:400px;
+    margin:20px;
+  }
+
+
+  
+  .text2{
+    
+ font-size: 30px;
+
+ text-align: center;
+ justify-content: center;
+ padding:3px;
+ border: 1px solid black;
+ margin-bottom: 20px;
+ background-color:black;
+ color: white;
+ 
+  }
+ 
+  .image-part{
+  margin-top: 100px;
+    height:500px;
+  }
+  .feedback-form{
+    height:auto;
+    width:100%;
+    border:1px solid #0000;
+  }
+  /* style.css */
+
+.star-cont{
+  width:35%;
+  height:auto;
+  padding:0px 10px;
+ 
+  border-radius: 20px;
+
+  margin:10px auto;
+
+}
+  .star-card {
+    max-width: 33rem;
+    background: #fff;
+    margin: 10px auto;
+    padding: 1rem;
+   
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 0.5rem;
+    text-align: center;
+    justify-content: center;
+  }
+   
+  .star {
+     font-size: 10vh;
+     cursor: pointer;
+  }
+   
+  .one {
+     color: rgb(255, 0, 0);
+  }
+   
+  .two {
+     color: rgb(255, 106, 0);
+  }
+  .three {
+     color: rgb(251, 255, 120);
+  }
+  .four {
+     color: rgb(255, 255, 0);
+  } 
+  .five {
+     color: rgb(24, 159, 14);
+  }
+  .map iframe{
+    box-shadow:  0px 0px 10px 1px black;
+    width:80%;
+    height:300px;
+    margin-left: 150px ;
+    margin-top: 100px;
+    }
+    .header{
+      font-family: "Roboto", 'Open-sans';
+    }
+    .color{
+ color: black;
+ margin-left: 10px;
+    }
+    .btn-submit {
+      font-size: 20px;
+      padding: 10px 10px;
+      border: none;
+      border-radius: 20px;
+      width: 100%; /* Make the button responsive */
+      max-width: 150px; /* Limit maximum width for larger screens */
+      background-color: #252525;
+      color: white;
+    }
+    
+    @media screen and (max-width: 700px) {
+      .image-part{
+        margin-top: 100px;
+          height:300px;
+        }
+        .text2{
+          font-size: 20px;
+           text-align: center;
+            justify-content: center;
+           padding:2px;
+           border: 1px solid black;
+           margin-bottom: 10px;
+           background-color:black;
+           color: white;  
+            }
+            .star-cont{
+              width:100%;
+              height:auto;
+              padding:0px 5px;
+             
+              border-radius: 20px;
+            
+              margin:10px auto;
+            
+            }
+            .second-part{
+              box-shadow: 0 0 20px rgba(0,0,0,0.2);
+              display:block;
+              height: auto;
+              width:100%;
+              padding: 20px 20px;
+              justify-content: center;
+              text-align: center;
+              margin-bottom:30px;
+              }
+             
+    }
