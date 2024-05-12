@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us</title>
+  <title>Register </title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
@@ -46,7 +46,7 @@
   
   </style>
 </head>
-<body  style="background-color: #ffcc99">
+<body  style="background-color: #ffe6cc;">
   <nav class="navbar navbar-expand-lg navbar-dark"style=" background-color: rgb(30, 6, 6); color:#ffe6cc;">
     <a class="navbar-brand" href="#">
       <img src="..\images\logo.png" width="120" height="80" class="d-inline-block align-top" alt="Logo">
@@ -82,6 +82,43 @@
     </div>
   </nav>
   
+  <div class="container mt-5 mb-5" style="width:500px;">
+    <h2 class="mb-4">Bakery Website Registration</h2>
+    <form>
+      <div class="form-group">
+        <label for="name"><b>Name:</b></label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name" required style=" background-color: rgb(30, 6, 6); color:#d9cbb9;">
+      </div>
+      <div class="form-group">
+        <label for="email"><b>Email Address:</b></label>
+        <input type="email" class="form-control" id="email" placeholder="Enter your email" required style=" background-color: rgb(30, 6, 6); color:#d9cbb9;">
+      </div>
+      <div class="form-group">
+        <label for="phone"><b>Phone Number:</b></label>
+        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required style=" background-color: rgb(30, 6, 6); color:#d9cbb9;">
+      </div>
+      <div class="form-group">
+        <label for="address"><b>Address:</b></label>
+        <input type="text" class="form-control" id="address" placeholder="Enter your address" required style=" background-color: rgb(30, 6, 6); color:#d9cbb9;">
+      </div>
+      <div class="form-group">
+        <label for="username"><b>Username:</b></label>
+        <input type="text" class="form-control" id="username" placeholder="Enter a username" required style=" background-color: rgb(30, 6, 6); color:#d9cbb9;">
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" class="form-control" id="password" placeholder="Enter a password" required style=" background-color: rgb(30, 6, 6); color:#d9cbb9;">
+      </div>
+      <div class="form-group">
+        <label for="confirmPassword"><b>Confirm Password:</b></label>
+        <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required style=" background-color: rgb(30, 6, 6); color:#d9cbb9;">
+      </div>
+      <button type="submit" class="btn btn-primary" style=" background-color: rgb(30, 6, 6); color:#d9cbb9;">Submit</button>
+      <div class="form-group register-link">
+        <p>Already have an account? <a href="login.html"style="color:rgb(30, 6, 6);"><b>Login here.</b></a></p> 
+    </div>
+    </form>
+  </div>
 
   
   <!-- Footer -->
