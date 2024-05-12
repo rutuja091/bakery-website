@@ -1,0 +1,10 @@
+.gallery-item {
+    margin-bottom: 30px;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 5px;
+
+
+}
