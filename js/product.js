@@ -8,13 +8,14 @@
                 let total = document.getElementById("total");
                 if(b=='Warao Chocolate')
                 {
-                flavour.src = '.\..\images\product\product-1.jpg';
+                flavour.src = './../images/product/product-1.jpg';
                 price.innerText ='only at ₹120/-'
+                total.innerText=`at ₹${quantity * price}`;
 
                 }
                 else if(b=='Choco berry')
                  {
-                     flavour.src = '..\images\about\first-img.jpg';
+                     flavour.src = './../images/about/first-img.jpg';
                      price.innerText ='only at ₹170/-'
                      total.innerText=`at ₹${quantity * price}`;
                  }
