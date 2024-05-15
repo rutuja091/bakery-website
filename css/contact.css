@@ -52,7 +52,7 @@
    color:#0000;
  }
    .second-part{
-     box-shadow: 0 0 10px  rgb(30, 6, 6);
+    box-shadow: 0 0 10px  rgb(30, 6, 6);
    display:flex;
    height: auto;
    width:70%;
@@ -80,6 +80,67 @@
      width:400px;
      margin:20px;
    }
+
+
+
+
+
+ /* style.css */
+
+ .star-cont{
+  width:100%;
+  height:auto;
+  padding:0px 10px;
+ 
+  border-radius: 20px;
+
+  margin:10px auto;
+
+}
+  .star-card {
+    max-width: 33rem;
+  
+    margin: 10px auto;
+    padding: 1rem;
+
+    width: 100%;
+    margin-top: 50px;
+    border-radius: 0.5rem;
+    text-align: center;
+    justify-content: center;
+  }
+   
+  .star {
+     font-size: 10vh;
+     cursor: pointer;
+  }
+   
+  .one {
+     color: rgb(255, 0, 0);
+  }
+   
+  .two {
+     color: rgb(255, 106, 0);
+  }
+   
+  .three {
+     color: rgb(251, 255, 120);
+  }
+   
+  .four {
+     color: rgb(255, 255, 0);
+  }
+   
+  .five {
+     color: rgb(24, 159, 14);
+  }
+
+
+
+
+
+
+
    @media screen and (max-width: 700px) {
     .second-part{
       box-shadow: 0 0 20px rgb(30, 6, 6);
