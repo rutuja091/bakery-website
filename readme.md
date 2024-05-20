@@ -14,7 +14,7 @@
 ![alt text](images/readme/gallerypage.png)
 
 ### About page
-![alt text](images/readme/homepage.png)
+![alt text](images/readme/aboutpage.png)
 
 ### Contact page
 ![alt text](images/readme/contactpage.png)
