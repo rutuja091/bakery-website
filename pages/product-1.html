@@ -91,9 +91,9 @@
 
 
   <section class="Product container my-4 pt-4">
-    <div style="display: flex;">
+    <div  class="product-container" >
         <div class="mainImg1">
-            <img src="..\images\product\product-1.jpg" id="changeImg" class="mainImg1"style="border-radius:30px;height:500px;">
+            <img src="..\images\product\product-1.jpg" id="changeImg" class="mainImg1">
         </div>
         <div style="margin-left:50px;">
             <span class="product-title">
@@ -106,13 +106,13 @@
                     <p id="show-quantity" class="quantity-total"class="price">1 x 99 </p>
                     <p id="show-total" class="quantity-total">Total : 99</p>
                 </span>
-                <div style="display: flex; margin: 5px;">
-                    <div>
+                <div  class="qty">
+                   
                         <span>
                             <h5>QTY</h5>
                         </span>
-                    </div>
-                    <div class="Product-btn1" style="margin-left: 15px;">
+                  
+                    <div class="product-btn1">
                         <span style="cursor: pointer;">
                             <img src="..\images\product\minus.png" height="20px" onclick="decrement()">
                         </span>
@@ -122,7 +122,7 @@
                         </span>
                     </div>
                     <div>
-                      <button type="button" class="btn  mt-3 "onclick="add()" style="color:#ffcc99 ;background-color:#301b1a ; margin-left: 65px;">
+                      <button type="button" class="btn  mt-3 "onclick="add()" style="color:#ffcc99 ;background-color:#301b1a ; margin-left: 65px; ">
                         Add to cart
                        </button>
                     </div>

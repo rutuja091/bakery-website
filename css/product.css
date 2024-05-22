@@ -19,7 +19,7 @@
   }
   
 .btn{
-    border: 1px solid black;
+   
    
     padding: 10px 20px;
     background-color:rgb(30, 6, 6);;
@@ -36,15 +36,46 @@
     .mainImg1 {
         width: 450px;
         height: 550px;
+        border-radius:20px ;
     }
-
-    
+.product-container{
+    display: flex;
+}
+  .qty{
+    display: flex; 
+    margin: 5px
+  }  
+  .product-btn1{
+    margin-left: 15px;
+  }
 
 
     @media screen and (max-width: 700px){
         .card{
             margin-top: 50px;
         }
+        
+    .mainImg1 {
+        width: 350px;
+        border-radius:30px;
+        height:300px;
+        
+       
+    }
+  .product-container{
+    display: block;
+
+  }
+  .qty{
+    display:block; 
+    margin: 5px
+  }  
+
+  .product-btn1{
+    margin-left: 50px;
+  }
+
+
     }
 
 
