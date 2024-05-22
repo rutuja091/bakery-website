@@ -143,14 +143,13 @@
 
    @media screen and (max-width: 700px) {
     .second-part{
-      box-shadow: 0 0 20px rgb(30, 6, 6);
-      display:block;
-      height: auto;
-      width:100%;
-      padding: 20px 20px;
       justify-content: center;
+      flex-wrap: wrap;
       text-align: center;
-     margin:10px auto;
-      }
-     
+      width: 100%;
+      padding: 10px;
+      height:auto;
+    
+    }
+   
    }

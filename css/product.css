@@ -32,34 +32,6 @@
     transition: all .3s ease-out;
     border:none;
 }
-.btn:hover{
-    background-color:white;
-    color: rgb(30, 6, 6);;
-    border :1px solid rgb(30, 6, 6);;
-
-    }
- 
-    .btn1{
-        background:transparent;
-        border:none;
-        font-size: 20px;
-        outline:none;
-        color:black;
-        margin-top:-5px;
-    }
-  
-
-    .add-btn {
-        color: #ffff;
-        font-size: 14px;
-        background: black;
-        border: 1px solid;
-        padding: 6px 20px;
-        margin-top: 5px;
-        margin-left: 50px;
-        border-radius: 20px;
-        cursor: pointer;
-    }
 
     .mainImg1 {
         width: 450px;
@@ -69,7 +41,11 @@
     
 
 
-
+    @media screen and (max-width: 700px){
+        .card{
+            margin-top: 50px;
+        }
+    }
 
 
 

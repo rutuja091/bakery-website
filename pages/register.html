@@ -3,14 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Register </title>
+  <title> Product</title>
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- Bootstrap CSS -->
   <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
    <!-- Font Awesome Icons -->
    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+   
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+   <script src="https://kit.fontawesome.com/029a190c6b.js" crossorigin="anonymous"></script>
    <!-- CSS --> 
-  <link href="..\css\register.css" rel="stylesheet">
+  <link href="..\css\product.css" rel="stylesheet">
   <link href="..\css\theme.css" rel="stylesheet">
   <style>
 
@@ -22,7 +26,7 @@
       font-weight: bold;
     }
     .navbar-nav .nav-link {
-      color:#d9cbb9;;
+      color:#d9cbb9;
       transition: all 0.3s ease;
       font-size: 20px;
     }
@@ -47,7 +51,7 @@
   
   </style>
 </head>
-<body  style="background-color: #ffe6cc;">
+<body  style="background-color: #ffe6cc">
   <nav class="navbar navbar-expand-lg navbar-dark"style=" background-color: rgb(30, 6, 6); color:#ffe6cc;">
     <a class="navbar-brand" href="..\index.html">
       <img src="..\images\logo.png" width="120" height="80" class="d-inline-block align-top" alt="Logo">
@@ -61,7 +65,7 @@
         <li class="nav-item ">
           <a class="nav-link" href="..\index.html">Home</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item active">
           <a class="nav-link" href="..\pages\product.html">Products</a>
         </li>
         <li class="nav-item">
@@ -84,102 +88,110 @@
   </nav>
 
 
-  <div class="moon-div position-fixed z-2 position-fixed">
-    <img src="..\images\moon.png" class="moon" id="btn" />
-  </div>
-  
-  <div class="container mt-5 mb-5" style="width:500px;">
-    <h2 class="mb-4">Bakery Website Registration</h2>
-    <form>
-      <div class="form-group">
-        <label for="name"><b>Name:</b></label>
-        <input type="text" class="form-control" id="name" placeholder="Enter your name" required style=" background-color: rgb(30, 6, 6); color:#d9cbb9;">
-      </div>
-      <div class="form-group">
-        <label for="email"><b>Email Address:</b></label>
-        <input type="email" class="form-control" id="email" placeholder="Enter your email" required style=" background-color: rgb(30, 6, 6); color:#d9cbb9;">
-      </div>
-      <div class="form-group">
-        <label for="phone"><b>Phone Number:</b></label>
-        <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number" required style=" background-color: rgb(30, 6, 6); color:#d9cbb9;">
-      </div>
-      <div class="form-group">
-        <label for="address"><b>Address:</b></label>
-        <input type="text" class="form-control" id="address" placeholder="Enter your address" required style=" background-color: rgb(30, 6, 6); color:#d9cbb9;">
-      </div>
-      <div class="form-group">
-        <label for="username"><b>Username:</b></label>
-        <input type="text" class="form-control" id="username" placeholder="Enter a username" required style=" background-color: rgb(30, 6, 6); color:#d9cbb9;">
-      </div>
-      <div class="form-group">
-        <label for="password">Password:</label>
-        <input type="password" class="form-control" id="password" placeholder="Enter a password" required style=" background-color: rgb(30, 6, 6); color:#d9cbb9;">
-      </div>
-      <div class="form-group">
-        <label for="confirmPassword"><b>Confirm Password:</b></label>
-        <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" required style=" background-color: rgb(30, 6, 6); color:#d9cbb9;">
-      </div>
-      <button type="submit" class="btn btn-primary" style=" background-color: rgb(30, 6, 6); color:#d9cbb9;">Submit</button>
-      <div class="form-group register-link">
-        <p>Already have an account? <a href="login.html"style="color:rgb(30, 6, 6);"><b>Login here.</b></a></p> 
-    </div>
-    </form>
-  </div>
-
-  
-  <!-- Footer -->
-  <footer class="footer"  style=" background-color: rgb(30, 6, 6); color:#d9cbb9;">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3 footer-content ">
-          <h3>Apna Bakery</h3>
-          <p><i class=""></i>Apna Bakery sits about a 100 kms outside Pune welcoming the wonderful guests 
-            coming from far and wide. We follow sustainable practices and focus on improving local livelihoods.
-          </p>
-        
-        </div>
-        <div class="col-md-3 footer-content ">
-          <h3>Our Services</h3>
-          <p><i class=""></i>Cakes for All Occasions</p>
-          <p><i class=""></i> Customized Cupcakes</p>
-          <p><i class=""></i>Freshly Baked Bread</p>
-          <p><i class=""></i>Delicious Pastries</p>
-         
-        </div>
-        <div class="col-md-3 footer-content ">
-          <h3>Contact Us</h3>
-          <p><i class="fas fa-map-marker-alt"></i>Pune - Ahilyanagar Highway , <br>Supa , Tal. Parner , <br> Dist. Ahilyanagar.
-          </p>
-          <p><i class="fas fa-phone"></i> 02488-213222</p>
-          <p><i class="fas fa-envelope"></i>apnabakery@gmail.com</p>
-        </div>
-       
-         
-        <div class="col-md-3 footer-content ">
-          <h3>Connect with Us</h3>
-          <!-- Social Media Icons -->
-          <div class="social-icons">
-            <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
-            <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>   
-            <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>   
-            <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
-            <p>_____________________________</p>
+  <div class="container mt-5 mb-5">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <h2 class="text-center mb-4">Login to Bakery Dashboard</h2>
+        <form>
+          <div class="form-group">
+            <label for="username"><b>Username</b></label>
+            <input type="text" class="form-control"style="background-color: rgb(30, 6, 6); color:#ffe6cc" id="username" placeholder="Enter Username">
           </div>
+
+          <div class="form-group">
+            <label for="email"><b>Email</b></label>
+            <input type="email" class="form-control"style="background-color: rgb(30, 6, 6); color:#ffe6cc" id="email" placeholder="Enter Email">
+          </div>
+
+          <div class="form-group">
+            <label for="password"><b>Password</b></label>
+            <input type="password" class="form-control"style="background-color: rgb(30, 6, 6); color:#ffe6cc" id="password" placeholder="Enter Password">
+          </div>
+
+          <div class="form-group">
+            <label for="password"><b> Confirm Password</b></label>
+            <input type="password" class="form-control"style="background-color: rgb(30, 6, 6); color:#ffe6cc"  id="password"  placeholder="Enter Confirm Password">
+          </div>
+          
+          <div class="form-group">
+            <label for="number"><b> Mobile Number</b></label>
+            <input type="number" class="form-control"style="background-color: rgb(30, 6, 6); color:#ffe6cc"  id="number"  placeholder="Enter Mobile Number">
+          </div>
+
+          <div class="form-group">
+            <label for="address"><b> Address</b></label>
+            <input type="address" class="form-control"style="background-color: rgb(30, 6, 6); color:#ffe6cc"  id="address"  placeholder="Enter Address">
+          </div>
+
+          <button type="submit" class="btn"style="background-color:rgb(30, 6, 6);color:#ffe6cc">Register</button>
+          <div class="form-group register-link">
+            <p> Already have have an account? <a href="login.html"style="color:rgb(30, 6, 6);"><b>Login  here</b></a></p>
         </div>
-      </div><hr>
-      <div class="container text-center mt-5 " style=" color:#ffe6cc">
-        <p>&copy;Apna Bakery. All Rights Reserved</p>
+        </form>
       </div>
-    </footer>
+    </div>
+  </div>
+
  
-
-  <!-- Bootstrap JS (optional) -->
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
+ 
+ <!-- Footer -->
+ <footer class="footer"  style=" background-color: rgb(30, 6, 6); color:#ffe6cc">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3 footer-content ">
+        <h3>Apna Bakery</h3>
+        <p><i class=""></i>Apna Bakery sits about a 100 kms outside Pune welcoming the wonderful guests 
+          coming from far and wide. We follow sustainable practices and focus on improving local livelihoods.
+        </p>
+      
+      </div>
+      <div class="col-md-3 footer-content ">
+        <h3>Our Services</h3>
+        <p><i class=""></i>Cakes for All Occasions</p>
+        <p><i class=""></i> Customized Cupcakes</p>
+        <p><i class=""></i>Freshly Baked Bread</p>
+        <p><i class=""></i>Delicious Pastries</p>
+       
+      </div>
+      <div class="col-md-3 footer-content ">
+        <h3>Contact Us</h3>
+        <p><i class="fas fa-map-marker-alt"></i>Pune - Ahilyanagar Highway , <br>Supa , Tal. Parner , <br> Dist. Ahilyanagar.
+        </p>
+        <p><i class="fas fa-phone"></i> 02488-213222</p>
+        <p><i class="fas fa-envelope"></i>apnabakery@gmail.com</p>
+      </div>
      
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="..\js\register.js"></script>
+       
+      <div class="col-md-3 footer-content ">
+        <h3>Connect with Us</h3>
+        <!-- Social Media Icons -->
+        <div class="social-icons">
+          <a href="#" class="facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>   
+          <a href="#" class="youtube"><i class="fab fa-youtube"></i></a>   
+          <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
+         
+        </div>
+      </div>
+    </div><hr>
+    <div class="container text-center mt-5 " style=" color:#ffe6cc">
+      <p>&copy;Apna Bakery. All Rights Reserved</p>
+    </div>
+  </footer>
+
+
+
+<!-- Bootstrap JS (optional) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+   
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<script src="..\js\register.js"> </script>
+<script>
+
+
+</script>
 </body>
 </html>
